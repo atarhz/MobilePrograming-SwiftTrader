@@ -65,7 +65,9 @@ struct ContentView: View {
                     Section{
                         Spacer()
                         Button(action: {
-                            print("fu")
+                            WindowGroup {
+                                Crypto()
+                            }
                         }, label: {
                             VStack {
                                 Image(systemName: "bitcoinsign.circle")

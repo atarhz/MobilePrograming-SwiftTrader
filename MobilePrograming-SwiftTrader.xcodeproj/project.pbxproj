@@ -14,6 +14,7 @@
 		62D6030F29699B55000E8BB3 /* MobilePrograming_SwiftTraderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D6030E29699B55000E8BB3 /* MobilePrograming_SwiftTraderTests.swift */; };
 		62D6031929699B55000E8BB3 /* MobilePrograming_SwiftTraderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D6031829699B55000E8BB3 /* MobilePrograming_SwiftTraderUITests.swift */; };
 		62D6031B29699B55000E8BB3 /* MobilePrograming_SwiftTraderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D6031A29699B55000E8BB3 /* MobilePrograming_SwiftTraderUITestsLaunchTests.swift */; };
+		62ED8C2A296D641400637F89 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ED8C29296D641400637F89 /* Crypto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		62D6031429699B55000E8BB3 /* MobilePrograming-SwiftTraderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MobilePrograming-SwiftTraderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D6031829699B55000E8BB3 /* MobilePrograming_SwiftTraderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePrograming_SwiftTraderUITests.swift; sourceTree = "<group>"; };
 		62D6031A29699B55000E8BB3 /* MobilePrograming_SwiftTraderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePrograming_SwiftTraderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		62ED8C29296D641400637F89 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				62D602FD29699B54000E8BB3 /* MobilePrograming_SwiftTraderApp.swift */,
 				62D602FF29699B54000E8BB3 /* ContentView.swift */,
+				62ED8C29296D641400637F89 /* Crypto.swift */,
 				62D6030129699B55000E8BB3 /* Assets.xcassets */,
 				62D6030329699B55000E8BB3 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62ED8C2A296D641400637F89 /* Crypto.swift in Sources */,
 				62D6030029699B54000E8BB3 /* ContentView.swift in Sources */,
 				62D602FE29699B54000E8BB3 /* MobilePrograming_SwiftTraderApp.swift in Sources */,
 			);
